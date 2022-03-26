@@ -53,6 +53,6 @@ you shall not allowed to change the artist song
 const data = new FormData("#insert-music");
 fetch("http://localhost/api.audio-player-v2/update.php,{
     method:"UPDATE"
-	  body:data;				
+    body:data;				
   });
 ```
